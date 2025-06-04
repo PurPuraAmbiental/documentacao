@@ -1,2 +1,3 @@
-# documentacao
-Repositório para a documetação geral do projeto
+# Documentação do Purpura 🩷
+
+- [Padrão de Banco](./padrao_banco.md)
