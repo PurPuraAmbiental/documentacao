@@ -1,8 +1,5 @@
 # Padrões de commit
 
-Perfeito! Aqui está com os bullets `*` mantidos e os emojis antes de cada prefixo:
-
-
 * ✨ **(feat)**: indica o desenvolvimento de uma nova feature ao projeto. Exemplo: Acréscimo de um serviço, funcionalidade, endpoint, etc.
 * 🔧 **(refactor)**: usado quando houver uma refatoração de código que não tenha qualquer tipo de impacto na lógica/regras de negócio do sistema. 
     - Exemplo: Mudanças de código após um code review
