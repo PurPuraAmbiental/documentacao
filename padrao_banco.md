@@ -41,13 +41,13 @@ SELECT FROM WHERE CREATE ALTER DROP JOIN
 #### EXEMPLOS:
 
 ```sql
-CREATE TABLE Usuario {
+CREATE TABLE Usuario (
     nCdUsuario    DECIMAL(10, 0) PRIMARY KEY
     cNmUsuario    VARCHAR(100)   NOT NULL
     nCdEmpresa    DECIMAL(10, 0) FOREIGN KEY REFERENCES ...
     iQntVisitas   INTEGER        DEFAULT 0
     cAtivo        CHAR(1)        CHECK (cAtivo IN ('0', '1'))
-}
+)
 ```
 
 #### EXCEÇÕES
@@ -101,4 +101,5 @@ CREATE TABLE EmpresaEndereco
 ,   cCep               VARCHAR(8)   NOT NULL
     nCdEmpresa         INT          FOREIGN KEY (nCdEmpresa) REFERENCES Empresa(nCdEmpresa),
 );
+
 ```
