@@ -1,4 +1,4 @@
-# Documentação do Purpura 🩷
+# Documentação do Purpura 💜
 
 ## Funções e Delegações
 - [Funções](./funcoes/funcoes.md)
