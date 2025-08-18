@@ -16,6 +16,7 @@ Um bom commit tem que ter um **prefixo** e uma **mensagem**.
 5. `(test)` Adicionou um novo teste unitário
 6. `(release)` Criou uma nova versão do projeto
 7. `(merge)` Merge com outra branch
+8. `(ci)` Modificando arquivo ci.yml
 
 ### Boas mensagens
 Os exemplos acima demonstram operações únicas, atômicas e bem descritas, evite mensagens longas ou muito genéricas de commits
@@ -52,3 +53,7 @@ Os prefixos podem ser usados em qualquer commit do projeto, mas eles podem ser u
 * 🧪 **(test)**: indica o desenvolvimento/alteração de um teste unitário.
 
 * 🚀 **(release)**: indica a criação de uma nova versão do projeto.
+
+* 👩‍💻 **(ci)**: indica commits relacionados ao GitHub Actions, modificações nas pipelines ci.yml
+
+
