@@ -9,13 +9,13 @@ Um bom commit tem que ter um **prefixo** e uma **mensagem**.
 
 ### Exemplos de bons commits
 
-1. `(feat)`: Adicionar um novo endpoint
-2. `(bugfix)`: Corrigir um bug
-3. `(refactor)`: Mudou nome de variável
-4. `(chore)`: Adicionou postgres ao pom.xml
-5. `(test)`: Adicionou um novo teste unitário
-6. `(release)`: Criou uma nova versão do projeto
-7. `(merge)`: Merge com outra branch
+1. `(feat)` Adicionar um novo endpoint
+2. `(bugfix)` Corrigir um bug
+3. `(refactor)` Mudou nome de variável
+4. `(chore)` Adicionou postgres ao pom.xml
+5. `(test)` Adicionou um novo teste unitário
+6. `(release)` Criou uma nova versão do projeto
+7. `(merge)` Merge com outra branch
 
 ### Boas mensagens
 Os exemplos acima demonstram operações únicas, atômicas e bem descritas, evite mensagens longas ou muito genéricas de commits
