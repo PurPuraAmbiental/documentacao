@@ -1,18 +1,19 @@
 # Modelo de atributos e Tabelas
 
-## QUERIES
+## BANCO RELACIONAL SQL
+### QUERIES
 - Palavras chave do SQL em maiúsculo
 ```sql
 SELECT FROM WHERE CREATE ALTER DROP JOIN 
 ```
 
-## Nome de tabelas:
+### Nome de tabelas:
 - Capitalizadas
 - CamelCase
 - Em SINGULAR
 
 
-## Nome de Atributos / colunas:
+### Nome de Atributos / colunas:
 
 * Composição:
 ```xml
@@ -24,13 +25,13 @@ SELECT FROM WHERE CREATE ALTER DROP JOIN
 -> Nome de Usuário : c + Nm + Usuario -> cNmUsuario
 
 
-### Prefixo primário
+#### Prefixo primário
 - n -> Decimal, Primary e Foreign Key
 - c -> Strings, Varchar, Char(1)
 - i -> Inteiros
 - d -> Datas
 
-### Prefixo secundário
+#### Prefixo secundário
 - Cd -> Código / Primary e Foreign Key
 - Nr -> Número
 - Nm -> Nome
@@ -38,7 +39,7 @@ SELECT FROM WHERE CREATE ALTER DROP JOIN
 - Qnt -> Quantidade
 
 
-#### EXEMPLOS:
+##### EXEMPLOS:
 
 ```sql
 CREATE TABLE Usuario (
@@ -50,7 +51,7 @@ CREATE TABLE Usuario (
 )
 ```
 
-#### EXCEÇÕES
+##### EXCEÇÕES
 
 Quando não se aplicam os prefixos secundários, usa-se os primários.
 
@@ -65,16 +66,16 @@ Quando não se aplicam os prefixos secundários, usa-se os primários.
 - cEmail
 - cTelefone
 
-### Atributos comuns
+#### Atributos comuns
 - cAtivo (CHAR(1)) sempre 0 ou 1
 
-#### Primary e Foreign Key
+##### Primary e Foreign Key
 ```xml
 nCd + <NomeTabela>
 ```
 
 
-## Exemplos de SQL
+### Exemplos de SQL
 ```sql
 -- Empresa
 -- PostgreSQL
@@ -103,3 +104,25 @@ CREATE TABLE EmpresaEndereco
 );
 
 ```
+
+## BANCO NOSQL MongoDB
+
+### Nome de collection
+
+- CamelCase
+- Em SINGULAR
+
+### Nome de atributos
+- Scalar
+- Composto
+
+### Prefixos de tipos compostos
+- Listas / Array : `ls`
+- Objetos: `ob`
+
+### Para atributos únicos
+Usar prefixo secundário `Cd`
+
+* Exemplos:
+- cCdEmpresa
+- nCdOutra 
