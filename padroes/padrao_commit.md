@@ -48,7 +48,7 @@ Os prefixos podem ser usados em qualquer commit do projeto, mas eles podem ser u
     - Exemplo: adicionar informações na documentação da API (Swagger), mudar o README, etc.
     - Ou também quando se muda comentários no código
 
-* ↩️ **(revert)**: indica a reverão de um commit anterior.
+* ↩️ **(revert)**: indica a reversão de um commit anterior.
 
 * 🎉 **(merge)**: indica a mescla de duas ou mais branches.
     - No entanto também é válida a mensagem de merge automática do git.
