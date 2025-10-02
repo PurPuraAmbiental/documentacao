@@ -11,6 +11,9 @@ Este repositório contém a documentação do projeto **Purpura Ambiental**. Aqu
 - [Padrão de Banco](./padroes/padrao_banco.md)
 - [Padrão de Commit](./padroes/padrao_commit.md)
 
+### Fluxos de requisição das APIs
+- [Fluxos Mobile](./api/fluxos.md)
+
 ## Informações Adicionais
 
 - [Portas de API](./api/portas.md)
