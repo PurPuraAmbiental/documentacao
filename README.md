@@ -14,6 +14,8 @@ Este repositório contém a documentação do projeto **Purpura Ambiental**. Aqu
 ### Fluxos de requisição das APIs
 - [Fluxos Mobile](./api/fluxos.md)
 
-## Informações Adicionais
+## Informações Adicionais Técnicas
+
+### Apis
 
 - [Portas de API](./api/portas.md)
